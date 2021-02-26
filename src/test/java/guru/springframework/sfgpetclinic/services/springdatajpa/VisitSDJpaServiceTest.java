@@ -87,7 +87,7 @@ class VisitSDJpaServiceTest {
     }
 
     @Test
-        @DisplayName("Test Delete By ID")
+    @DisplayName("Test Delete By ID")
     void deleteById() {
         service.deleteById(1L);
 
